@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <!-- Label and Input for Primer Nombre -->
+    <TextView
+        android:id="@+id/label_primerNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Primer Nombre"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/input_primerNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su primer nombre"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        app:layout_constraintTop_toBottomOf="@id/label_primerNombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Label and Input for Segundo Nombre -->
+    <TextView
+        android:id="@+id/label_segundoNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segundo Nombre"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        app:layout_constraintTop_toBottomOf="@id/input_primerNombre"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/input_segundoNombre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su segundo nombre"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        app:layout_constraintTop_toBottomOf="@id/label_segundoNombre"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Label and Input for Primer Apellido -->
+    <TextView
+        android:id="@+id/label_primerApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Primer Apellido"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        app:layout_constraintTop_toBottomOf="@id/input_segundoNombre"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/input_primerApellido"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su primer apellido"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        app:layout_constraintTop_toBottomOf="@id/label_primerApellido"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Label and Input for Segundo Apellido -->
+    <TextView
+        android:id="@+id/label_segundoApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Segundo Apellido"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        app:layout_constraintTop_toBottomOf="@id/input_primerApellido"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/input_segundoApellido"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su segundo apellido"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        app:layout_constraintTop_toBottomOf="@id/label_segundoApellido"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Label and Input for Sexo -->
+    <TextView
+        android:id="@+id/label_sexo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sexo"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        app:layout_constraintTop_toBottomOf="@id/input_segundoApellido"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/input_sexo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su sexo"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        app:layout_constraintTop_toBottomOf="@id/label_sexo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Label and Input for Teléfono -->
+    <TextView
+        android:id="@+id/label_telefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teléfono"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        app:layout_constraintTop_toBottomOf="@id/input_sexo"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/input_telefono"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su número de teléfono"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_background"
+        app:layout_constraintTop_toBottomOf="@id/label_telefono"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
