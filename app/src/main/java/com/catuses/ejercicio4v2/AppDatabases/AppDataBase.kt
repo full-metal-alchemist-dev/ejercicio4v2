@@ -4,8 +4,8 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.catuses.Ejercicio4V2.DAOs.PersonaDAO
-import com.catuses.Ejercicio4V2.Entities.Persona
+import com.catuses.ejercicio4v2.DAOs.PersonaDAO
+import com.catuses.ejercicio4v2.Entities.Persona
 
 @Database(entities = [Persona::class], version = 1)
 abstract class AppDataBase : RoomDatabase() {

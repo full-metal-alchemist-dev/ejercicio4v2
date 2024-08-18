@@ -1,12 +1,13 @@
-package com.catuses.Ejercicio4V2.DAOs
+package com.catuses.ejercicio4v2.DAOs
 
+import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import com.catuses.Ejercicio4V2.Entities.Persona
+import com.catuses.ejercicio4v2.Entities.Persona
 
-
+@Dao
 interface PersonaDAO {
 
     @Insert

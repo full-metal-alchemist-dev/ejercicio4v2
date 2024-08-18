@@ -1,4 +1,4 @@
-package com.catuses.Ejercicio4V2.Entities
+package com.catuses.ejercicio4v2.Entities
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -26,6 +26,6 @@ data class Persona (
     var sexo: String,
 
     @ColumnInfo(name = "Telefono")
-    var telefono: Integer
+    var telefono: Int
 
     )
