@@ -11,17 +11,17 @@ import com.catuses.ejercicio4v2.Entities.Persona
 interface PersonaDAO {
 
     @Insert
-    fun insertUser(persona : Persona)
+    fun insertPersona(persona : Persona)
 
     @Update
-    fun updateUser (persona : Persona )
+    fun updatePersona (persona : Persona )
 
     @Delete
-    fun deleteUser(persona : Persona )
+    fun deletePersona(persona : Persona )
 
     @Query(" SELECT * FROM Persona ")
-    fun selectAllUsers(): List<Persona>
+    fun selectAllPersonas(): List<Persona>
 
     @Query(" SELECT * FROM Persona WHERE id = :id")
-    fun selectUsers(id : Int) : Persona
+    fun selectPersona(id : Int) : Persona
 }
