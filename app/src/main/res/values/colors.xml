@@ -3,9 +3,14 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="primaryColor">#1E3A8A</color> <!-- Example: Navy Blue -->
+
     <color name="primaryLightColor">#5C6BC0</color> <!-- Lighter shade for primary color -->
     <color name="primaryDarkColor">#0D1B3C</color> <!-- Darker shade for primary color -->
-    <color name="accentColor">#FF4081</color> <!-- Example: Pink for accent -->
+
+
+
+    <color name="primaryColor">#6200EE</color>
+    <color name="primaryColorDark">#3700B3</color>
+    <color name="accentColor">#03DAC5</color>
 
 </resources>
